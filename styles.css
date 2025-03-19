@@ -1,0 +1,46 @@
+body{
+    font-family:'Arial', sans-serif;
+    line-height: 1.6;
+    margin:0;
+    padding:0;
+    background-color:#f4f4f4;
+    color:#333;
+}
+header {
+    background: #333;
+    color: #fff;
+    padding: 1rem 0;
+    text-align: center;
+}
+nav ul {
+    list-style: none; /* removes the bullet from default ul */
+    padding: 0;
+}
+nav ul li{
+    display:inline;  /* removes the block level property of li and stack it horizontally */
+    margin: 0 20px;
+}
+nav ul li a{
+    color: #fff;
+    text-decoration: none; /* removes by default underline */
+}
+section{
+    padding: 2rem;
+    margin: 1rem 0;
+    background: #fff;
+}
+.projects{
+    border: 1px solid #ddd;
+    padding: 1rem;
+    margin:1rem 0;
+}
+@media (max-width: 768px) {
+    nav ul li {
+        display: block;
+        text-align: center;
+    }
+
+    header h1 {
+        font-size: 1.5rem;
+    }
+}
